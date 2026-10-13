@@ -42,6 +42,10 @@ export default function HomePage() {
           <span>폴더: My first site</span>
           <span>PowerShell: <code className="bg-slate-200 dark:bg-zinc-800 px-1.5 py-0.5 rounded text-slate-800 dark:text-zinc-200">npm run dev</code></span>
         </div>
+
+        <p style={{ color: "#C84726" }} className="text-sm font-medium">
+          [오늘 처음 인터넷에 사이트를 올렸어요!]
+        </p>
       </div>
     </main>
   );
