@@ -1,3 +1,5 @@
+import ContactSection from "./ContactSection";
+
 export default function HomePage() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center px-4 py-12 bg-gray-100 dark:bg-gray-900 text-black">
@@ -47,6 +49,8 @@ export default function HomePage() {
           [오늘 처음 인터넷에 사이트를 올렸어요!]
         </p>
       </div>
+
+      <ContactSection />
     </main>
   );
 }
