@@ -13,8 +13,18 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.nikke.life"),
   title: "My First Site",
-  description: "Next.js + TypeScript + Tailwind CSS App",
+  description: "Next.js + TypeScript + Tailwind CSS 스타터 프로젝트입니다.",
+  openGraph: {
+    title: "My First Site",
+    description: "Next.js + TypeScript + Tailwind CSS 스타터 프로젝트입니다.",
+    url: "https://www.nikke.life",
+    siteName: "My First Site",
+    images: ["/favicon2.png"],
+    locale: "ko_KR",
+    type: "website",
+  },
   verification: {
     google: "h7EelifGzd4F9L-KVqTwDfJ5f-po73hwLs8knzhW9Kc",
     other: {
